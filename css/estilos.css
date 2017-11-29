@@ -1,0 +1,122 @@
+html, body {  /* hacemos un reset de padding y margin */
+  margin: 0px;
+  padding: 0px;
+  height: 100%; /*cubrimos el 100% de la pantalla con vacio para no tener que expandir con texto */
+}
+body p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  height: 100%; /* (?) por algún motivo hay que volver a añadir este atributo al contenedor main */
+}
+
+.cieloestrellado {
+   background-image: url("../img/cieloestrellado.png"); /* (i) imagen creada por mi utilizando Adobe Illustrator*/
+   height: 70%;
+   color: yellow;
+   text-align: center;
+   font-family: fantasy;
+  }
+
+.suelolunar {
+  background-image: url("../img/suelolunar.png"); /* (i) imagen creada por mi utilizando Adobe Illustrator*/
+  height: 30%;
+  position: relative;
+}
+
+.opciones {
+  float: right;
+  top: 3%;
+  left: 1%;
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: red;
+  padding: 2px;
+  margin: 10px;
+  text-align: left;
+}
+
+.panel {
+  float: left;
+  top: 3%;
+  left: 1%;
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: green;
+  padding: 2px;
+  margin: 10px;
+  text-align: right;
+}
+
+.nave {
+  position: relative;
+  left: 40%; /* (?) no entiendo porque la distancia al reducir el tamaño del navegador no siempre corresponde al % que indicamos */
+  top: 50%;
+  background-image: url("../img/rocket.png");   /* (i) imagen modificar de la original obtenida desde https://commons.wikimedia.org/wiki/File:Emojione_1F680.svg */
+  background-repeat: no-repeat;
+  background-size: 80px;
+  width: 80px;
+  height: 150px;
+  z-index: 1000; /* superponemos capa de la nave para que se superponga al suelo */
+}
+
+.listas {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pause {
+  background-image:url("../img/botones.png");
+  /*background-position: 0px 0px; */        /* (obs) por defecto este atributo está a 0px */
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 20px;
+  height: 20px;
+}
+.howtoplay {
+  background-image:url("../img/botones.png");
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+  background-size: 20px;
+  padding-left: 20px;
+  height: 20px;
+}
+.about {
+  background-image:url("../img/botones.png");
+  background-repeat: no-repeat;
+  background-position: 0px -40px;
+  background-size: 20px;
+  padding-left: 20px;
+  height: 20px;
+
+}
+
+.speed {
+  background-image: url("../img/estados.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+
+.fuel {
+  background-image: url("../img/estados.png");
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+  background-size: 40px;
+}
+
+.height {
+  background-image: url("../img/estados.png");
+  background-repeat: no-repeat;
+  background-position: 0px -40px;
+  background-size: 40px;
+}
+
+
+p {
+  color: #b32715;
+}
