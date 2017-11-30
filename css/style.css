@@ -36,7 +36,7 @@ a:hover {
 }
 
 a:active {
-
+    color: blueviolet;
 }
 
 
@@ -81,7 +81,7 @@ nav {
     position: relative;
 } */
 
-.pause {
+.play {
     background-image:url("../img/botones.png");
     background-repeat: no-repeat;
     background-size: 40px;
@@ -166,10 +166,19 @@ aside {
 /********** Contenido *********/
 
 section {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
     color: yellow;
+    /* (?) buscar forma de poner un recuardo en el centro que sea semi transparente y que contenga los textos */
+    /* background-color: darkslategrey; */
+    margin-top: 60px;
 }
+
+article {
+    color: white;
+    height: 200px;
+}
+
 
 .nave {
     display: inline-block;
