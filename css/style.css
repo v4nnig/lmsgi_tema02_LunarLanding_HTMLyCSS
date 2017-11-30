@@ -1,10 +1,27 @@
-body {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
-main{
-    background: #000000 url(img/fondolunar_v2.jpg) repeat;
+main {
+    height: auto;
+
+}
+
+#fondo {
+    background: url("../img/cieloestrellado.png") repeat; /* (i) imagen creada por mi utilizando Adobe Illustrator*/
+    height: 70%;
+}
+
+#suelo {
+    background-image: url("../img/suelolunar.png"); /* (i) imagen creada por mi utilizando Adobe Illustrator*/
+    height: 30%;
+    position: relative;
 }
 
 nav {
@@ -17,6 +34,18 @@ aside {
 
 section {
 
+}
+
+#nave {
+    position: relative;
+    left: 45%; /* (?) no entiendo porque la distancia al reducir el tamaño del navegador no siempre corresponde al % que indicamos */
+    top: 50%;
+    background-image: url("../img/rocket.png");   /* (i) imagen modificar de la original obtenida desde https://commons.wikimedia.org/wiki/File:Emojione_1F680.svg */
+    background-repeat: no-repeat;
+    background-size: 5em;
+    width: 4.9em;
+    height: 150px;
+    /* z-index: 1000;  superponemos capa de la nave para que se superponga al suelo */ 
 }
 
 footer {
