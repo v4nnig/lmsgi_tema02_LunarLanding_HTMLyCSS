@@ -51,9 +51,9 @@ a:active {
 }
 
 /******* Menu de navegación *******/
-nav {
+/* nav {
 
-}
+} */
 
 .menu {
     float: right;
@@ -106,9 +106,9 @@ nav {
 
 /******* Panel de control *******/
 
-aside {
+/* aside {
 
-}
+} */
 
 .panel {
     float: left;
@@ -196,11 +196,11 @@ article {
 
 /******** Pie de página *******/
 
-footer {
+/* footer {
 
 }
 
 footer p {
 
-}
+} */
 
