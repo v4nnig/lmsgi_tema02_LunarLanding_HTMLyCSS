@@ -83,13 +83,14 @@ a:active {
 
 .menu a {
     list-style: none;
-    width: 40px;
+    /* width: 100%; */
     visibility: visible;
     padding-left: 3rem;
-    line-height: 60px; /* (i) Aumento el tamaño del enlace para que sea el mismo que el del icono y se pueda hacer clic en el enlace correctamente  */
+    /* (i) Aumento el tamaño del enlace para que sea el mismo que el del icono y se pueda hacer clic en el enlace correctamente  */
+    line-height: 40px;
 }
 
-.menu p{
+.menu p {
     display: none;
 }
 
