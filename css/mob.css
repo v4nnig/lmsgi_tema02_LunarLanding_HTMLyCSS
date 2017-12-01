@@ -55,7 +55,7 @@ a:active {
 
 } */
 
-.menu {
+/* .menu {
     float: right;
     text-align: right;
     top: 3%;
@@ -69,11 +69,31 @@ a:active {
     border-style: dotted;
     border-color: red;
     border-width: 2px;
+} */
+
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .menu li {
-    list-style: none;
+    display: inline-block;
 }
+
+.menu a {
+    list-style: none;
+    width: 40px;
+    visibility: visible;
+    padding-left: 3rem;
+    line-height: 60px; /* (i) Aumento el tamaño del enlace para que sea el mismo que el del icono y se pueda hacer clic en el enlace correctamente  */
+}
+
+.menu p{
+    display: none;
+}
+
+
 
 /* (?) buscar la forma de centrar los textos de las listas en los menús */
 
@@ -111,9 +131,10 @@ a:active {
 } */
 
 .panel {
+    position: absolute;
     float: left;
     text-align: left;
-    top: 3%;
+    top: 50%;
     left: 1%;
     width: 200px;
     height: 8rem;
@@ -124,7 +145,24 @@ a:active {
     border-style: dotted;
     border-color: red;
     border-width: 2px;
+    visibility: hidden;
 }
+
+.panel::after {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/32px-Hamburger_icon.svg.png);
+    color: red; 
+    background: white;
+    visibility: visible;
+    position: absolute;
+    top: -300px;
+    height: 30px;
+}
+
+.panel:active {
+    visibility: visible;
+}
+
+
 
 .panel li {
     list-style: none;
@@ -182,9 +220,9 @@ article {
 
 .nave {
     display: inline-block;
-    /* position: relative;  */
+    position: relative;
     /* left: 50%; */ /* (?) no entiendo porque la distancia al reducir el tamaño del navegador no siempre corresponde al % que indicamos */
-    /* top: 50%; */
+    /* top: 0px; */
     background-image: url("../img/rocket.png");   /* (i) imagen modificar de la original obtenida desde https://commons.wikimedia.org/wiki/File:Emojione_1F680.svg */
     background-repeat: no-repeat;
     background-size: 5em;
@@ -196,11 +234,10 @@ article {
 
 /******** Pie de página *******/
 
-/* footer {
-
+footer {
+    text-align: center;
 }
 
 footer p {
-
-} */
+}
 
