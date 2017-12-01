@@ -27,3 +27,5 @@ Durante el desarrollo del proyecto me he encontrado con un problema que no he sa
 Validación HTML en [validator.w3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Frawgit.com%2Fv4nnig%2Flmsgi_tema02_LunarLanding_HTMLyCSS%2Fmaster%2Findex.html) y CSS en [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Frawgit.com%252Fv4nnig%252Flmsgi_tema02_LunarLanding_HTMLyCSS%252Fmaster%252Findex.html&profile=css3&usermedium=all&warning=1&vextwarning=&lang=es).
 
 Proyecto visible en [rawgit](https://rawgit.com/v4nnig/lmsgi_tema02_LunarLanding_HTMLyCSS/master/index.html).
+
+Para ir a la rama con los css minificados ir a: [https://github.com/v4nnig/lmsgi_tema02_LunarLanding_HTMLyCSS/tree/minificando](https://github.com/v4nnig/lmsgi_tema02_LunarLanding_HTMLyCSS/tree/minificando)
