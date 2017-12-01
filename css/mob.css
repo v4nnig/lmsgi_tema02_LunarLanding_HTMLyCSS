@@ -236,11 +236,12 @@ article {
 }
 
 /******** Pie de página *******/
-
+/* 
 footer {
-    text-align: center;
-}
+    
+} */
 
 footer p {
+    text-align: center;
 }
 
