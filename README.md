@@ -9,6 +9,7 @@ En cuanto al resto de imagenes son de creación propia utilizando *Adobe illustr
 
 * Quisiera explicar que también que la carpeta `img\borradores` es simplemente un carpeta donde guardo las imagenes fuente u otras que he estado modificando pero que no se muestran en el proyecto final.
 
+* Para el modo movil index-mob.html he usado un icono de hamburguesa obtenido de [Wikipedia](https://en.wikipedia.org/wiki/Hamburger_button#/media/File:Hamburger_icon.svg)
 
 
 
